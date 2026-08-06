@@ -1,8 +1,4 @@
-DROP DATABASE IF EXISTS Pretifly;
 
-CREATE DATABASE Pretifly;
-
-USE Pretifly;
 
 SHOW TABLES;
 
@@ -26,7 +22,7 @@ CREATE TABLE contents (
 	
 	Title VARCHAR(100),
 	
-	release_Year INT,
+	Release_Year INT,
 	
 	foreign key (idCategories) references categories(idCategories),
 	
@@ -40,18 +36,23 @@ CREATE TABLE clients(
 	
 	Name VARCHAR(100),
 	
-	Email VARCHAR(100),
+	Email VARCHAR(100)
 	
-	Country VARCHAR(50)
 );
 
 
 CREATE TABLE views (
     idViews INT PRIMARY KEY AUTO_INCREMENT,
+    
     idClients INT,
+    
     idContents INT,
+    
     View_Date DATETIME,
+    
+	Rating INT,
 
     FOREIGN KEY (idClients) REFERENCES clients(idClients),
+    
     FOREIGN KEY (idContents) REFERENCES contents(idContents)
 );

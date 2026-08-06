@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS Pretifly;
+
+CREATE DATABASE Pretifly;
+
+USE Pretifly;
