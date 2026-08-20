@@ -1,0 +1,31 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#bab2b2",
+        "activityBar.background": "#bab2b2",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#287828",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#bab2b2",
+        "statusBar.background": "#a29797",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#8a7c7c",
+        "statusBarItem.remoteBackground": "#b7e7b7",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#a29797",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#a2979799",
+        "titleBar.inactiveForeground": "#15202b99",
+        "activityBarTop.activeBackground": "#bab2b2",
+        "activityBarTop.background": "#bab2b2",
+        "activityBarTop.foreground": "#15202b",
+        "activityBarTop.inactiveForeground": "#15202b99",
+        "commandCenter.foreground": "#15202b",
+        "statusBar.debuggingBackground": "#a29797",
+        "statusBar.debuggingForeground": "#15202b"
+    },
+    "peacock.color": "#a29797",
+    
+    /* "hediet.vscode-drawio.theme": "dark" */
+}

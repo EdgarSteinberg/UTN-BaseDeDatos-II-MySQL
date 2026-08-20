@@ -12,11 +12,18 @@ INSERT INTO categories (Name) VALUES
     ('Anime')
 ;
 
+INSERT INTO categories (Name)
+VALUES ('Horror');
+
+INSERT INTO categories (Name)
+VALUES ('Thriller');
+
 INSERT INTO contents_types (Name) VALUES 
     ('Movie'),
     ('Series'),
-    ('Short'),
-    ('Video')
+    ('Short film'),
+    ('Video'),
+    ('Anime')
 ;
 
 INSERT INTO contents (Title, Release_Year, idCategories, idContents_Types) VALUES
@@ -27,6 +34,13 @@ INSERT INTO contents (Title, Release_Year, idCategories, idContents_Types) VALUE
     ('Mad Max Fury Road', 2015, 4, 1),
     ('Your Name', 2016, 6, 1)
 ;
+
+INSERT INTO contents(Title, Release_Year, idCategories, idContents_Types)
+VALUE ('GALAXY 0', 1901, 2, 1);
+
+INSERT INTO contents(Title, Release_Year, idCategories, idContents_Types)
+VALUE ('Neon Spirts', 2024, 1, 10);
+
 
 INSERT INTO clients (Name, Email) VALUES
     ('Juan Perez', 'juan@email.com'),
@@ -41,4 +55,12 @@ INSERT INTO views (idClients, idContents, View_Date, Rating) VALUES
     (3,4,'2025-03-01 13:01:00',3),
     (2,5,'2025-03-10 23:02:00',4)
 ;
+
+
+INSERT INTO countries (Name, Code) VALUES 
+       ('Argentina', 'ARG'),
+       ('Brasil', 'BRA'),
+       ('Chile', 'CHL')
+;
+
 
