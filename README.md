@@ -10,6 +10,20 @@ Durante la cursada se trabajan conceptos fundamentales para el desarrollo de sof
 
 ## Contenidos trabajados
 
+- Creación y modificación de tablas.
+- Claves primarias y claves foráneas.
+- Claves primarias compuestas.
+- Relaciones entre tablas.
+- Restricciones (`CONSTRAINT`).
+- `INSERT`, `UPDATE` y `DELETE`.
+- Consultas con `SELECT`.
+
+## Diagrama Entidad-Relación
+
+DER correspondiente a las tablas trabajadas durante la cursada.
+
+![Diagrama Entidad-Relación](./assets/DER.png)
+
 ### SQL
 
 - **DDL (Data Definition Language)**
