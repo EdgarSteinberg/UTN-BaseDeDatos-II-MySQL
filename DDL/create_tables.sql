@@ -73,7 +73,7 @@ CREATE TABLE countries (
     Code CHAR(4) NOT NULL
 );
 
-
+-- Todavia no lo anadi a la BD
 CREATE TABLE languages (
 
     idLanguages INT PRIMARY KEY AUTO_INCREMENT,
@@ -102,7 +102,7 @@ CREATE TABLE memberships (
     CONSTRAINT memberships_pk
         PRIMARY KEY (idMemberships, idClients),
 
-   /*  CONSTRAINT memberships_fk
+    CONSTRAINT memberships_fk
         FOREIGN KEY (idClients)
-        REFERENCES clients(idClients) */
+        REFERENCES clients(idClients) 
 );

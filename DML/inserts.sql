@@ -58,9 +58,19 @@ INSERT INTO views (idClients, idContents, View_Date, Rating) VALUES
 
 
 INSERT INTO countries (Name, Code) VALUES 
-       ('Argentina', 'ARG'),
-       ('Brasil', 'BRA'),
-       ('Chile', 'CHL')
+    ('Argentina', 'ARG'),
+    ('Brasil', 'BRA'),
+    ('Chile', 'CHL')
 ;
 
+INSERT INTO languages (Name) VALUES 
+    ('Spanish'),
+    ('English'),
+    ('French');
 
+ 
+INSERT INTO memberships ( idClients,Description,Date_From, Date_To, Date_Cancel, Value) VALUES
+ ( 1,'Premium', '2026-05-02', '2026-05-02', NULL,150.99);
+
+INSERT INTO memberships ( idClients,Description,Date_From, Date_To, Date_Cancel, Value) VALUES
+ ( 1,'Basic', '2026-05-02', '2026-05-02', NULL,150.99);
