@@ -74,3 +74,7 @@ INSERT INTO memberships ( idClients,Description,Date_From, Date_To, Date_Cancel,
 
 INSERT INTO memberships ( idClients,Description,Date_From, Date_To, Date_Cancel, Value) VALUES
  ( 1,'Basic', '2026-05-02', '2026-05-02', NULL,150.99);
+
+
+
+ 
