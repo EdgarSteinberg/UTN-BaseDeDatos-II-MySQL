@@ -14,3 +14,8 @@ GROUP BY ct.Name
 HAVING
     COUNT(c.idContents) >= 5
     AND ROUND(AVG(c.Release_Year), 0) >= 2020;
+
+
+
+
+

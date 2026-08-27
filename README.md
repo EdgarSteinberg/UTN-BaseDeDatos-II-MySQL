@@ -77,5 +77,21 @@ DER correspondiente a las tablas trabajadas durante la cursada.
 
 <img src="./assets/HavingVsWhere.png" width="500">
 
+### Funciones de ventana
+
+<img src="./assets/Fventana.png" width="600">
+
+### Funciones de Fecha
+- MySQL ofrece un conjunto amplio de funciones para trabajar con
+- DATE, DATETIME y TIMESTAMP
+
+<img src="./assets/Ffecha.png" width="600">
+
+### Funciones de Cadena
+- Las funciones de cadena permiten combinar, recortar
+- transformar y medir textos directamente en la consulta:
+
+<img src="./assets/Fcadena.png" width="600">
+
 **Carrera:** Tecnicatura Universitaria en Programación  
 **Institución:** Universidad Tecnológica Nacional (UTN)
