@@ -61,6 +61,21 @@ DER correspondiente a las tablas trabajadas durante la cursada.
 - Resolución de ejercicios prácticos de la materia.
 
 ---
+### Funciones de agregación
+
+<img src="./assets/Fagregacion.png" width="600">
+
+### GROUP BY
+
+<img src="./assets/GroupBy.png" width="400">
+
+### HAVING
+
+<img src="./assets/Having.png" width="400">
+
+### HAVING vs WHERE
+
+<img src="./assets/HavingVsWhere.png" width="500">
 
 **Carrera:** Tecnicatura Universitaria en Programación  
 **Institución:** Universidad Tecnológica Nacional (UTN)
