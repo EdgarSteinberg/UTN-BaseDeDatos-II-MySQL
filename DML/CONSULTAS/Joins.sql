@@ -42,7 +42,7 @@ La idea principal aprendida fue que, cuando el dato que necesitamos se encuentra
 
 Mostrar todos los contenidos junto con el nombre de su categoría.
 
-```sql
+sql
 SELECT
     c.Title AS Titulo_Pelicula,
     ca.Name AS Categoria_Pelicula
