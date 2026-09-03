@@ -56,3 +56,6 @@ LEFT JOIN views AS v
 GROUP BY
     c.Title,
     ct.Name;
+
+
+
