@@ -8,15 +8,6 @@ Este repositorio contiene prácticas, ejercicios y apuntes relacionados con el d
 
 Durante la cursada se trabajan conceptos fundamentales para el desarrollo de software orientado a datos, desde la creación de estructuras hasta la realización de consultas y gestión de información.
 
-## Contenidos trabajados
-
-- Creación y modificación de tablas.
-- Claves primarias y claves foráneas.
-- Claves primarias compuestas.
-- Relaciones entre tablas.
-- Restricciones (`CONSTRAINT`).
-- `INSERT`, `UPDATE` y `DELETE`.
-- Consultas con `SELECT`.
 
 ## Diagrama Entidad-Relación
 
@@ -53,20 +44,31 @@ DER correspondiente a las tablas trabajadas durante la cursada.
 
 ### Normalizacion 
 
-<img src="./assets/1FN.png" width="600">
+## Primera Forma Normal (1FN)
+<img src="./assets/1FN.png" width="500">
 
-<img src="./assets/2FN.png" width="600">
+## Segunda Forma Normal (2FN)
+<img src="./assets/2FN.png" width="500">
 
-<img src="./assets/3FN.png" width="600">
+## Tercera Forma Normal (3FN)
+<img src="./assets/3FN.png" width="500">
 
-<img src="./assets/4FNBC.png" width="600">
+## FNBC refinamiento 3FN
+<img src="./assets/4FNBC.png" width="500">
 
+## Integridad de datos que garantizan confiabilidad en BD
+-- Con clases de PK/FK y Constraint
+<img src="./assets/integridad.png" width="600">
+
+### Problemas que la concurrencia puede generar
+
+<img src="./assets/Pconcurrencia.png" width="600">
 
 ### Funciones de agregación
 
 <img src="./assets/Fagregacion.png" width="600">
 
-### GROUP BY
+### AGRUPAMIENTO con GROUP BY
 
 <img src="./assets/GroupBy.png" width="400">
 
@@ -97,3 +99,8 @@ DER correspondiente a las tablas trabajadas durante la cursada.
 
 **Carrera:** Tecnicatura Universitaria en Programación  
 **Institución:** Universidad Tecnológica Nacional (UTN)
+
+
+### Renderizado el README como en GitHub, en VS Code podés hacer:
+
+- Ctrl + Shift + V 

@@ -47,7 +47,7 @@ CREATE TABLE clients_mal(
     idClients INT PRIMARY KEY,
     Name VARCHAR(100),
     Cliente_Pais VARCHAR(100),
-    CountryCode VARCHAR(5) -- depende de CountryCode, no de idClients
+    CountryCode VARCHAR(5) -- depende de CountryCode, no de idClients Dependencia transitivas
 )
 
 -- Tabla nueva , Tabla puente para asignar varias categorias a un contenido
