@@ -51,16 +51,17 @@ DER correspondiente a las tablas trabajadas durante la cursada.
 - DBeaver
 - Git / GitHub
 
-## Prácticas realizadas
+### Normalizacion 
 
-- Modelado de bases de datos.
-- Creación de tablas.
-- Definición de relaciones.
-- Uso de claves foráneas.
-- Consultas SQL.
-- Resolución de ejercicios prácticos de la materia.
+<img src="./assets/1FN.png" width="600">
 
----
+<img src="./assets/2FN.png" width="600">
+
+<img src="./assets/3FN.png" width="600">
+
+<img src="./assets/4FNBC.png" width="600">
+
+
 ### Funciones de agregación
 
 <img src="./assets/Fagregacion.png" width="600">
@@ -92,6 +93,7 @@ DER correspondiente a las tablas trabajadas durante la cursada.
 - transformar y medir textos directamente en la consulta:
 
 <img src="./assets/Fcadena.png" width="600">
+
 
 **Carrera:** Tecnicatura Universitaria en Programación  
 **Institución:** Universidad Tecnológica Nacional (UTN)
