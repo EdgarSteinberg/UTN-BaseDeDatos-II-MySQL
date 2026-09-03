@@ -42,8 +42,9 @@ DER correspondiente a las tablas trabajadas durante la cursada.
 - DBeaver
 - Git / GitHub
 
-### Normalizacion 
 
+### Normalizacion 
+ 
 ## Primera Forma Normal (1FN)
 <img src="./assets/1FN.png" width="500">
 
@@ -60,9 +61,15 @@ DER correspondiente a las tablas trabajadas durante la cursada.
 -- Con clases de PK/FK y Constraint
 <img src="./assets/integridad.png" width="600">
 
+
 ### Problemas que la concurrencia puede generar
 
 <img src="./assets/Pconcurrencia.png" width="600">
+
+
+### Niveles de aislamientos
+
+<img src="./assets/Naislamiento.png" width="600">
 
 ### Funciones de agregación
 

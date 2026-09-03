@@ -1,4 +1,20 @@
 -- Anomalia de Normalizacion
+
+/*
+| Concepto               | Pertenece principalmente a                  |
+| ------------------------- | ------------------------------------------- |
+| Valores atómicos          | **1FN**                                     |
+| Grupos repetitivos        | **1FN**                                     |
+| Dependencia funcional     | **Normalización / 2FN / 3FN**               |
+| Dependencia parcial       | **2FN**                                     |
+| Dependencia transitiva    | **3FN**                                     |
+| Anomalía de inserción     | Problemas que busca evitar la normalización |
+| Anomalía de actualización | Problemas que busca evitar la normalización |
+| Anomalía de eliminación   | Problemas que busca evitar la normalización |
+| ACID                      | **Transacciones**                           |
+ */
+
+
 -- Anomalia principal : si queremos actualizar el email de la persona
 -- Tendriamos que buscar el Nombre del cliente para actualizar el email dentro de esta tabla
 
